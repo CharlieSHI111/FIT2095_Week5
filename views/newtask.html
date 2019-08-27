@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>
+        <a href="/">Home</a>
+        <a href="/listtasks">List Tasks</a>
+        </h1>
+
+        <form action="/createtask" method="POST">
+            Task Name: <input type='text' name="taskname"> <br/>
+            Task Due: <input type='text' name="taskdue"> <br/>
+            Task Desc: <input type="text" name='taskdesc'> <br/>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
